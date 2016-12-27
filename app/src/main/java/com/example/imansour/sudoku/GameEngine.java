@@ -35,7 +35,12 @@ public class GameEngine {
         selectedPosX = x;
         selectedPosY = y;
     }
-
+    public void setNumber( int number ){
+        if( selectedPosX != -1 && selectedPosY != -1 ){
+            grid.setItem(selectedPosX,selectedPosY,number);
+        }
+        grid.checkGame();
+    }
 
 }
 

@@ -9,7 +9,7 @@ android:paddingRight="@dimen/activity_horizontal_margin"
 android:paddingTop="@dimen/activity_vertical_margin"
 tools:context="com.example.imansour.sudoku.MainActivity" >
 
-<com.example.imansour.sudoku.view.sudokugrid.SudokuGridView
+<com.example.imansour.sudoku.SudokuGridView
     android:id="@+id/sudokuGridView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -17,11 +17,13 @@ tools:context="com.example.imansour.sudoku.MainActivity" >
     android:horizontalSpacing="0dp"
     android:verticalSpacing="0dp"/>
 
-<com.example.imansour.sudoku.view.buttonsgrid.ButtonsGridView
+<com.example.imansour.sudoku.ButtonsGridView
     android:id="@+id/buttonsgridview"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_below="@+id/sudokuGridView"
-    android:numColumns="6"></com.example.imansour.sudoku.view.buttonsgrid.ButtonsGridView>
+    android:numColumns="6">
+
+</com.example.imansour.sudoku.ButtonsGridView>
 
 </RelativeLayout>

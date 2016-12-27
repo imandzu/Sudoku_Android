@@ -53,5 +53,17 @@ public class GameGrid {
     }
 
 
+    public void checkGame(){
+        int [][] sudGrid = new int[9][9];
+        for( int x = 0 ; x < 9 ; x++ ){
+            for( int y = 0 ; y < 9 ; y++ ){
+                sudGrid[x][y] = getItem(x,y).getValue();
+            }
+        }
+
+        if( SudokuChecker.getInstance().checkSudoku(sudGrid)){
+            Toast.makeText(context, "You solved the sudoku.", Toast.LENGTH_LONG).show();
+        }
+    }
 }
 
