@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:2:1-18:12
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:2:1-25:12
 	xmlns:android
 		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -16,24 +16,40 @@ ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\Androi
 		INJECTED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:6:5-15:19
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:6:5-22:19
 	android:label
 		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:6:48-80
 	android:icon
 		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:6:18-47
 activity#com.sudoku.Sudoku
-ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:7:9-13:20
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:7:9-8:53
 	android:label
 		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:8:19-51
 	android:name
 		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:7:19-41
+activity#com.sudoku.MenuPrincipale
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:12:9-17:20
+	android:name
+		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:12:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:9:13-12:29
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:13:5-16:21
 action#android.intent.action.MAIN
-ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:10:17-69
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:14:9-61
 	android:name
-		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:10:25-66
+		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:14:17-58
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:11:17-77
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:15:9-69
 	android:name
-		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:11:27-74
+		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:15:19-66
+activity#com.sudoku.Apropos
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:18:9-44
+	android:name
+		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:18:19-42
+activity#com.sudoku.Score
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:19:9-42
+	android:name
+		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:19:19-40
+activity#com.sudoku.Son
+ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from C:\Users\ISMAIL\Desktop\LP\android\Sudoku_Android\app\src\main\AndroidManifest.xml:20:19-38

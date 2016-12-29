@@ -9,13 +9,17 @@
         android:label="@string/app_name" >
         <activity
             android:name="com.sudoku.Sudoku"
-            android:label="@string/app_name" >
+            android:label="@string/app_name" />
+        <activity android:name="com.sudoku.MenuPrincipale" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.sudoku.Apropos" />
+        <activity android:name="com.sudoku.Score" />
+        <activity android:name="com.sudoku.Son" />
     </application>
 
 </manifest>

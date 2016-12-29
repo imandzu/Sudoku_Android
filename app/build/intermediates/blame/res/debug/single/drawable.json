@@ -1,10 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\P8_Sudoku1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
-        "source": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\P8_Sudoku1\\app\\src\\main\\res\\drawable\\icon.png"
+        "merged": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\Sudoku_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apropos.png",
+        "source": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\Sudoku_Android\\app\\src\\main\\res\\drawable\\apropos.png"
+    },
+    {
+        "merged": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\Sudoku_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sudoku.png",
+        "source": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\Sudoku_Android\\app\\src\\main\\res\\drawable\\sudoku.png"
     },
     {
         "merged": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\Sudoku_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
         "source": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\Sudoku_Android\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\Sudoku_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info.png",
+        "source": "C:\\Users\\ISMAIL\\Desktop\\LP\\android\\Sudoku_Android\\app\\src\\main\\res\\drawable\\info.png"
     }
 ]

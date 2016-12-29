@@ -8,7 +8,7 @@ import com.sudoku.R;
 
 public class Sudoku extends Activity {
 
-    //private SokobanView mSokobanView;
+
 	
 
     @Override
@@ -19,10 +19,6 @@ public class Sudoku extends Activity {
         setContentView(R.layout.main);
 
 
-        /*
-        mSokobanView = (SokobanView)findViewById(R.id.SokobanView);
-        mSokobanView.setVisibility(View.VISIBLE);
-            */
 
         MoteurJeu.getInstance().createGrid(this);
 

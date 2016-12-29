@@ -25,8 +25,33 @@ public class Cellule extends BaseCellule {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        drawNumber(canvas);
-        drawLines(canvas);
+        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setStrokeWidth(1);
+        mPaint.setTextSize(15);
+        mPaint.setColor(Color.BLUE);
+
+
+        Rect bounds = new Rect(1, 1, 100, 100);
+        // fill
+        mPaint.setStyle(Paint.Style.FILL);
+        mPaint.setColor(Color.WHITE);
+        canvas.drawRect(bounds, mPaint);
+
+        // border
+        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setColor(Color.BLUE);
+        canvas.drawRect(bounds, mPaint);
+
+
+
+        mPaint.getTextBounds(String.valueOf(getValue()), 0, String.valueOf(getValue()).length(), bounds);
+
+        if( getValue() != 0 ){
+
+            canvas.drawText(String.valueOf(getValue()), (getWidth() - bounds.width())/2, (getHeight() + bounds.height())/2	, mPaint);
+        }
+        //drawNumber(canvas);
+        //drawLines(canvas);
     }
 
     private void drawNumber(Canvas canvas){
@@ -35,6 +60,9 @@ public class Cellule extends BaseCellule {
         mPaint.setStyle(Paint.Style.FILL);
 
         Rect bounds = new Rect();
+
+
+
         mPaint.getTextBounds(String.valueOf(getValue()), 0, String.valueOf(getValue()).length(), bounds);
 
         if( getValue() != 0 ){
@@ -46,6 +74,7 @@ public class Cellule extends BaseCellule {
         mPaint.setColor(Color.BLUE);
         mPaint.setStrokeWidth(1);
         mPaint.setStyle(Paint.Style.STROKE);
+
 
         canvas.drawRect(1, 1, getWidth(), getHeight(), mPaint);
     }
